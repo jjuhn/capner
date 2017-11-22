@@ -1,0 +1,17 @@
+APP_NAME = 'Untitled Application'
+SECRET_KEY = 'something unique and hard to guess'
+DEBUG = False
+TESTING = False
+MAIL_SERVER = 'smtp.gmail.com'
+MAIL_PORT = 587
+MAIL_USE_TLS = True
+MAIL_USERNAME = None
+MAIL_PASSWORD = None
+RECAPTCHA_USE_SSL = True
+RECAPTCHA_PUBLIC_KEY = None
+RECAPTCHA_PRIVATE_KEY = None
+SQLALCHEMY_DATABASE_URI = 'sqlite:////tmp/{0}.db'.format(__name__.split('.')[0])
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+GOOGLE_API_MAP_URL = 'https://maps.googleapis.com/maps/api/js'
+GOOGLE_API_PLACE_URL = 'https://maps.googleapis.com/maps/api/place/autocomplete/json'
+PRIVATE_DIR = 'data'
