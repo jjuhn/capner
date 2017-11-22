@@ -20,7 +20,7 @@ from . import app
 from . import send_email
 from .form import AddressMixin
 from .orm.model import *
-from msa.orm.model import Permission
+from capner.orm.model import Permission
 
 ########################################################################################################################
 # login manager

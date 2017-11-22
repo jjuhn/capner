@@ -16,14 +16,14 @@ from sqlalchemy.orm import joinedload
 from sqlalchemy.orm import noload
 from sqlalchemy import desc
 from sqlalchemy import event
-from msa.core import app, csrf
-from msa.core import send_email
-from msa.core.form import ChangeAddressForm
-from msa.core.auth import RegistrationForm
-from msa.form import PostForm
-from msa.form import UpdateSurveyForm
-from msa.form import ProjectPostForm
-from msa.form import ModalForm
+from capner.core import app, csrf
+from capner.core import send_email
+from capner.core.form import ChangeAddressForm
+from capner.core.auth import RegistrationForm
+from capner.form import PostForm
+from capner.form import UpdateSurveyForm
+from capner.form import ProjectPostForm
+from capner.form import ModalForm
 from werkzeug.utils import secure_filename
 from flask import jsonify
 import json
@@ -31,7 +31,7 @@ from pyPdf import PdfFileWriter, PdfFileReader
 
 
 
-from msa.orm.model import *
+from capner.orm.model import *
 
 
 SURVEY_PROFILE = 1
@@ -40,7 +40,7 @@ SURVEY_COMMUNICATION = 3
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif', 'doc', 'docx', 'rtf'])
 
 
-from msa.core import mail
+from capner.core import mail
 from flask_mail import Message
 from threading import Thread
 
