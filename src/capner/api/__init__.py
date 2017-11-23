@@ -2,10 +2,10 @@ from importlib import import_module
 
 
 for name in [
-    'msa.api.users',
-    'msa.api.posts',
-    'msa.api.projects',
-    'msa.api.pictures'
+    'capner.api.users',
+    'capner.api.posts',
+    'capner.api.projects',
+    'capner.api.pictures'
     ]:
 
     import_module(name)

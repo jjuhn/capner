@@ -2,8 +2,8 @@ from flask import jsonify
 from flask import request
 from flask_login import login_required
 
-from msa.core import db
-from msa.core import api
+from capner.core import db
+from capner.core import api
 from sa_jsonapi import serializer as jsonapi
 
 
