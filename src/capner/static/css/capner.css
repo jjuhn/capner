@@ -1,0 +1,262 @@
+body {
+    overflow-y: scroll;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+p {
+    font-size: 110%;
+}
+
+input[type=checkbox] ~ span {
+    margin-left: 0.5em;
+}
+
+.container-fluid, .container {
+    color: #373D3F;
+
+}
+
+/*.navbar-brand {*/
+    /*padding: 0.5em;*/
+/*}*/
+
+
+#map {
+    height: 600px;
+}
+
+.profile {
+    padding-left: 1em;
+}
+
+.publication a img {
+    margin-right: 1em;
+}
+
+.promo {
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+}
+
+.promo img {
+    border-top-right-radius: 75px;
+}
+
+.promo h2 {
+    color: #990000;
+    font-weight: bold;
+}
+
+.dx-error p, .dx-message p {
+    font-size: larger;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.dx-nowrap {
+    white-space: nowrap;
+}
+
+.dx-depth ul, .dx-depth ul {
+    padding: 0;
+    margin: 0;
+}
+
+.dx-reply {
+    margin-left: 3em;
+}
+
+.thumbnail {
+    margin-bottom: 0;
+}
+
+.tab-pane {
+    padding-top: 1em;
+}
+
+li.media .well {
+    margin-bottom: 0;
+}
+
+.dx-reply-group {
+    margin-top: 1em;
+}
+
+.dataTable > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.label {
+    font-size: 100% !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+}
+
+.rating-xs {
+    font-size: 1em !important;
+}
+
+.rating-container .star {
+    margin: 0;
+}
+
+
+
+.ui-autocomplete {
+    position: absolute;
+    z-index: 1000;
+    cursor: default;
+    padding: 0;
+    margin-top: 2px;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ui-autocomplete > li {
+    padding: 3px 20px;
+    cursor: pointer;
+}
+
+.ui-autocomplete > li.ui-state-focus {
+    background-color: #DDD;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+form p.text-muted {
+    width: 60%;
+}
+
+div.msa-label {
+    display: inline-block;
+    color: #666666;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 0;
+    font-size: large;
+}
+
+div.msa-label:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+div.msa-label span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.edit .glyphicon-remove {
+    color: #999;
+}
+
+.edit button[type="cancel"] {
+    margin-left: 2px;
+}
+
+.fileinput-remove-button, .fileinput-upload-button {
+    color: #FFFFFF;
+}
+
+.kv-avatar .file-preview-frame,.kv-avatar .file-preview-frame:hover {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+}
+
+.file-preview {
+    max-width: 256px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.file-preview-image {
+    text-align: center;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 256px;
+}
+
+.file-drop-zone {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+input[readonly] {
+    color: #999999 !important;
+    background-color: #ffffff !important;
+}
+
+.md-editor textarea, .md-preview {
+    padding: 6px 12px;
+}
+
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#affixed {
+    right: 0;
+}
+
+.profile-picture{
+    object-fit: contain;
+}
+
+td.details-control {
+    background: url('../images/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../images/details_close.png') no-repeat center center;
+}
+
+
+
+.business-header {
+    height: 400px;
+    background: url('/static/images/landing_page/random_cell.png') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    filter: invert(100%);
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
